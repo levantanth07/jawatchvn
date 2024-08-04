@@ -1,0 +1,21 @@
+/* card feedback */
+.card-feedback {
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+.card-feedback-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+}
+.card-feedback-body > div {
+  margin-top: 8px;
+  width: 80px;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+}
